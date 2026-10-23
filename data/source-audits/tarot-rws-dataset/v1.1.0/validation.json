@@ -1,0 +1,62 @@
+{
+  "dataset_version": "1.1.0",
+  "source_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+  "passed": true,
+  "checks_total": 2957,
+  "checks_passed": 2957,
+  "errors": [],
+  "summary": {
+    "jsonl_records": 78,
+    "csv_records": 78,
+    "unique_card_ids": 78,
+    "arcana": {
+      "major": 22,
+      "minor": 56
+    },
+    "minor_suits": {
+      "wands": 14,
+      "cups": 14,
+      "swords": 14,
+      "pentacles": 14
+    },
+    "primary_upright_present": 78,
+    "primary_reversed_present": 78,
+    "additional_upright_present": 56,
+    "additional_reversed_present": 50,
+    "csv_columns": 31,
+    "csv_cells_compared": 2418,
+    "upstream_checksum_files": 4,
+    "manifest_files": 8
+  },
+  "documented_absences": {
+    "minor_additional_reversed_null": [
+      "wands/two-of-wands",
+      "wands/three-of-wands",
+      "wands/seven-of-wands",
+      "wands/eight-of-wands",
+      "wands/nine-of-wands",
+      "wands/ten-of-wands"
+    ],
+    "major_additional_meanings": "All 22 null by upstream design",
+    "card_images": "Not included in upstream dataset"
+  },
+  "source_exception": {
+    "card_id": "cups/two-of-cups",
+    "numeric_id": 37,
+    "arcana": "minor",
+    "meaning_source_id": "waite-pictorial-key-1910-part-iii",
+    "upright_section": "Part III §2",
+    "reversed_section": "Part III §4 (additional meaning; §2 has no reversed line)",
+    "additional_section": "Part III §4",
+    "additional_upright_present": true,
+    "additional_reversed_present": true,
+    "correspondence_source_id": "equinox-1912-liber-lxxviii"
+  },
+  "limitations": [
+    "Primary source page images were not independently collated.",
+    "Per-card exact scan-page links are not fields in this dataset; source IDs, broad source-page ranges, sections and Wikisource revision pins are documented upstream.",
+    "DOIs and external mirrors were recorded but not independently resolved or byte-compared.",
+    "Git annotated tag is not cryptographically signed.",
+    "Historical meanings and Golden Dawn correspondences do not supply Japanese dictionary entries or artwork."
+  ]
+}

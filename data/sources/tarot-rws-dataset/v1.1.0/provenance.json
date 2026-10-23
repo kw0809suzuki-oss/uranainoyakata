@@ -1,0 +1,60 @@
+{
+  "dataset": "StarTarot English RWS Historical Meanings and Golden Dawn Correspondences",
+  "version": "1.1.0",
+  "repository": "https://github.com/StarTarotOnline/tarot-rws-dataset",
+  "tag": "v1.1.0",
+  "tag_object": "83978a3e95ae20a395e4d3aad74ae285c283b255",
+  "commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+  "retrieved_at_utc": "2026-10-23T10:11:02.285500+00:00",
+  "retrieval_method": "HTTPS Git clone --depth 1 --branch v1.1.0; exact tracked files copied without .git",
+  "version_doi": "10.5281/zenodo.22917681",
+  "concept_doi": "10.5281/zenodo.21381779",
+  "declared_release_date": "2026-09-23",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "attribution": "StarTarot. (2026). StarTarot English RWS Historical Meanings and Golden Dawn Correspondences (Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22917681",
+  "upstream_changes": "None. All eight tracked files copied byte-for-byte, including original line endings. No translation, summary, emendation or missing-value imputation applied to upstream files.",
+  "verification_boundary": "Dataset structure, cross-format agreement and source references verified locally; historical page images and external mirrors not independently collated. Git tag is not GPG signed.",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 1147,
+      "sha256": "7b19b662b4179cf38d326d87cbeea4a07d01db6da32d826e553a89e92cd7c1c5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1447,
+      "sha256": "244a8e3c74aab856e39bf543c588b98051f02196981cff684ba5f2a0ddc9afe8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5055,
+      "sha256": "8598a770cc12bba1163b0430073cf8ed746d98e9c925a1a7605e6dd1e035efff"
+    },
+    {
+      "path": "data/LICENSE",
+      "bytes": 1447,
+      "sha256": "244a8e3c74aab856e39bf543c588b98051f02196981cff684ba5f2a0ddc9afe8"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 36115,
+      "sha256": "62ca9df28e18cb4cb098d1a93d9af160fc34c8b765147f12ae2d323b27b81b8b"
+    },
+    {
+      "path": "data/cards.csv",
+      "bytes": 42597,
+      "sha256": "5d05e8ecdced2a13f26945d00892b953aef87afe77627a50f8ee061ab3ccba35"
+    },
+    {
+      "path": "data/cards.jsonl",
+      "bytes": 107823,
+      "sha256": "e03db8e8bb433c430d28e5b03a431a7be7f7ec0c1cce0fc48ec889f35a9ad201"
+    },
+    {
+      "path": "data/checksums.sha256",
+      "bytes": 304,
+      "sha256": "6886a756b90eef35d96f72081b5856cf723ae0aad0f8789e6c22da39a7633ab5"
+    }
+  ]
+}

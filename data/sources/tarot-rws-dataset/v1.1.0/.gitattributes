@@ -1,0 +1,2 @@
+# Preserve upstream bytes, including the CSV's original CRLF line endings.
+upstream/** -text -ident

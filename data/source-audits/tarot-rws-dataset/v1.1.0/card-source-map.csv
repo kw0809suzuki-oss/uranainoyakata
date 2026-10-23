@@ -1,0 +1,79 @@
+card_id,numeric_id,arcana,meaning_source_id,upright_section,reversed_section,additional_section,additional_upright_present,additional_reversed_present,correspondence_source_id
+00-fool,0,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+01-magician,1,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+02-high-priestess,2,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+03-empress,3,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+04-emperor,4,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+05-hierophant,5,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+06-lovers,6,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+07-chariot,7,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+08-strength,8,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+09-hermit,9,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+10-wheel,10,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+11-justice,11,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+12-hanged-man,12,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+13-death,13,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+14-temperance,14,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+15-devil,15,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+16-tower,16,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+17-star,17,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+18-moon,18,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+19-sun,19,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+20-judgement,20,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+21-world,21,major,waite-pictorial-key-1910-part-iii,Part III §3,Part III §3,,False,False,equinox-1912-liber-lxxviii
+wands/ace-of-wands,22,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/two-of-wands,23,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,False,equinox-1912-liber-lxxviii
+wands/three-of-wands,24,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,False,equinox-1912-liber-lxxviii
+wands/four-of-wands,25,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/five-of-wands,26,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/six-of-wands,27,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/seven-of-wands,28,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,False,equinox-1912-liber-lxxviii
+wands/eight-of-wands,29,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,False,equinox-1912-liber-lxxviii
+wands/nine-of-wands,30,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,False,equinox-1912-liber-lxxviii
+wands/ten-of-wands,31,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,False,equinox-1912-liber-lxxviii
+wands/page-of-wands,32,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/knight-of-wands,33,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/queen-of-wands,34,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+wands/king-of-wands,35,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/ace-of-cups,36,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/two-of-cups,37,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §4 (additional meaning; §2 has no reversed line),Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/three-of-cups,38,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/four-of-cups,39,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/five-of-cups,40,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/six-of-cups,41,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/seven-of-cups,42,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/eight-of-cups,43,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/nine-of-cups,44,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/ten-of-cups,45,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/page-of-cups,46,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/knight-of-cups,47,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/queen-of-cups,48,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+cups/king-of-cups,49,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/ace-of-swords,50,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/two-of-swords,51,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/three-of-swords,52,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/four-of-swords,53,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/five-of-swords,54,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/six-of-swords,55,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/seven-of-swords,56,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/eight-of-swords,57,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/nine-of-swords,58,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/ten-of-swords,59,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/page-of-swords,60,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/knight-of-swords,61,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/queen-of-swords,62,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+swords/king-of-swords,63,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/ace-of-pentacles,64,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/two-of-pentacles,65,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/three-of-pentacles,66,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/four-of-pentacles,67,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/five-of-pentacles,68,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/six-of-pentacles,69,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/seven-of-pentacles,70,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/eight-of-pentacles,71,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/nine-of-pentacles,72,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/ten-of-pentacles,73,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/page-of-pentacles,74,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/knight-of-pentacles,75,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/queen-of-pentacles,76,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
+pentacles/king-of-pentacles,77,minor,waite-pictorial-key-1910-part-iii,Part III §2,Part III §2,Part III §4,True,True,equinox-1912-liber-lxxviii
