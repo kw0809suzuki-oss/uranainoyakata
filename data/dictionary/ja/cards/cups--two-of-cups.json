@@ -1,0 +1,271 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.1.0",
+  "card_id": "cups/two-of-cups",
+  "numeric_id": 37,
+  "name_en": "Two of Cups",
+  "name_ja": "カップの2",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 2,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 38,
+    "record_selector": {
+      "card_id": "cups/two-of-cups"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L38",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and—as a suggestion apart from all offices of divination—that desire which is not in Nature, but by which Nature is sanctified.",
+        "text_sha256": "c34f1606a6ec2f1e89e33057909e15205690c9a1449d97c59e6adf9353f49ab5",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §4 (additional meaning; §2 has no reversed line)",
+        "text_en": "Passion.",
+        "text_sha256": "74b72bb3a770f23eac75bb833a666d38cb7d0ffc863f198779542a8188b56f14",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "Favourable in things of pleasure and business, as well as love; also wealth and honour.",
+        "text_sha256": "7668a3c3512016a1325ae6db99c6fcef737d89e4000c9e5e7831d586e0f09df8",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Passion.",
+        "text_sha256": "74b72bb3a770f23eac75bb833a666d38cb7d0ffc863f198779542a8188b56f14",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる語句対照付きの忠実訳試作。現代的定型解説による補完はしない。",
+    "fields": {
+      "upright": {
+        "text_ja": "愛、情熱、友情、親和性、結合、調和、共感、男女の相互関係、そして――占いのあらゆる営みとは別の示唆として――自然のうちにはないが、それによって自然が聖化される、あの欲望。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Love",
+            "text_ja": "愛"
+          },
+          {
+            "id": "upright:1",
+            "text_en": "passion",
+            "text_ja": "情熱"
+          },
+          {
+            "id": "upright:2",
+            "text_en": "friendship",
+            "text_ja": "友情"
+          },
+          {
+            "id": "upright:3",
+            "text_en": "affinity",
+            "text_ja": "親和性"
+          },
+          {
+            "id": "upright:4",
+            "text_en": "union",
+            "text_ja": "結合"
+          },
+          {
+            "id": "upright:5",
+            "text_en": "concord",
+            "text_ja": "調和"
+          },
+          {
+            "id": "upright:6",
+            "text_en": "sympathy",
+            "text_ja": "共感"
+          },
+          {
+            "id": "upright:7",
+            "text_en": "the interrelation of the sexes",
+            "text_ja": "男女の相互関係"
+          },
+          {
+            "id": "upright:8",
+            "text_en": "and—as a suggestion apart from all offices of divination—that desire which is not in Nature, but by which Nature is sanctified",
+            "text_ja": "そして――占いのあらゆる営みとは別の示唆として――自然のうちにはないが、それによって自然が聖化される、あの欲望"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "情熱。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Passion.",
+            "text_ja": "情熱"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "楽しみや仕事、そして愛においても好ましい。また、富と名誉。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "Favourable in things of pleasure and business, as well as love; also wealth and honour.",
+            "text_ja": "楽しみや仕事、そして愛においても好ましい。また、富と名誉"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "情熱。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Passion.",
+            "text_ja": "情熱"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "affinity / union / sympathy",
+        "note_ja": "親和性・結合・共感を採用。unionを結婚、sympathyを同情に限定しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "the interrelation of the sexes",
+        "note_ja": "男女の相互関係と訳した。原文の歴史的な性別表現を保持したもので、現代の関係の範囲を限定する編集方針ではない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "that desire which is not in Nature, but by which Nature is sanctified",
+        "note_ja": "欲望／自然／聖化という対比を保持。宗教的・哲学的な含意の確定は保留。「運命の恋」等へ置換しない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "reversed",
+        "term_en": "Passion.",
+        "note_ja": "情熱を暫定採用。激情・欲情・受苦などの語義のうち、ここで何を強調するかは単語一語からは確定しない。「不和」「別離」とは訳さない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "additional_upright",
+        "term_en": "business / honour",
+        "note_ja": "仕事・名誉を採用。businessは事業・商売も含み得る。正位置の本欄と§4の追加欄は混ぜない。",
+        "status": "translation_choice"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "愛・友情・共感など、人と人との親和や結びつき。逆位置も情熱という同じ語を含み、単純な反対語にはならない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "upright:2",
+        "upright:4",
+        "upright:5",
+        "upright:6",
+        "additional_upright:0",
+        "reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "愛情、友情、共感、調和を通じた結びつきを検討する。恋愛成立や結婚の確定にはしない。§4には楽しみ・仕事・愛に好ましく、富と名誉という追加の読みもある。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "upright:2",
+        "upright:4",
+        "upright:5",
+        "upright:6",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "情熱の強さや働き方を検討する。ただし原文はPassion.一語であり、それが健全か過剰か、関係が悪化するかはこの語だけでは決められない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "お互いが何を共有し、何を望んでいるかを確認する問いに使える。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "逆位置を「別離」「不和」「片思い」とする補完は行っていない。正位置の宗教的な末尾も削除せず翻訳に残した。",
+    "rationale_ja": "evidence_unitsで指した原文語句から編集者が整理した読み。原文の翻訳でも、唯一の解釈でもない。applicationは原典にはない問いかけである。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-23",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・忠実訳・語句分割と対応・曖昧さの注記・独自解釈・検証状態を追加。英語原文は保存済みデータから引用。原典保存領域への変更なし。",
+    "endorsement": false
+  },
+  "rank": null
+}

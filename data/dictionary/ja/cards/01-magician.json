@@ -1,0 +1,294 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.1.0",
+  "card_id": "01-magician",
+  "numeric_id": 1,
+  "name_en": "The Magician",
+  "name_ja": "魔術師",
+  "arcana": "major",
+  "suit": null,
+  "number": 1,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 2,
+    "record_selector": {
+      "card_id": "01-magician"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L2",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §3",
+        "text_en": "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies; self-confidence, will; the Querent, if male.",
+        "text_sha256": "3e94e77ed6bc34473cad52c15a79568eb87db9b2f0c3c62e7f1f5e9192f47a5a",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §3",
+        "text_en": "Physician, Magus, mental disease, disgrace, disquiet.",
+        "text_sha256": "3a0fb5b40c48f3bce46b227e003d6fc37b2a3990e04e1d6d69067bb8f5455b43",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": null,
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": null,
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる語句対照付きの忠実訳試作。現代的定型解説による補完はしない。",
+    "fields": {
+      "upright": {
+        "text_ja": "技量、外交手腕、応対の巧みさ、巧妙さ；病気、苦痛、喪失、災難、敵の罠；自信、意志；相談者が男性であれば、その相談者。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Skill",
+            "text_ja": "技量"
+          },
+          {
+            "id": "upright:1",
+            "text_en": "diplomacy",
+            "text_ja": "外交手腕"
+          },
+          {
+            "id": "upright:2",
+            "text_en": "address",
+            "text_ja": "応対の巧みさ"
+          },
+          {
+            "id": "upright:3",
+            "text_en": "subtlety",
+            "text_ja": "巧妙さ"
+          },
+          {
+            "id": "upright:4",
+            "text_en": "sickness",
+            "text_ja": "病気"
+          },
+          {
+            "id": "upright:5",
+            "text_en": "pain",
+            "text_ja": "苦痛"
+          },
+          {
+            "id": "upright:6",
+            "text_en": "loss",
+            "text_ja": "喪失"
+          },
+          {
+            "id": "upright:7",
+            "text_en": "disaster",
+            "text_ja": "災難"
+          },
+          {
+            "id": "upright:8",
+            "text_en": "snares of enemies",
+            "text_ja": "敵の罠"
+          },
+          {
+            "id": "upright:9",
+            "text_en": "self-confidence",
+            "text_ja": "自信"
+          },
+          {
+            "id": "upright:10",
+            "text_en": "will",
+            "text_ja": "意志"
+          },
+          {
+            "id": "upright:11",
+            "text_en": "the Querent, if male",
+            "text_ja": "相談者が男性であれば、その相談者"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "医師、魔術師、精神の病、不名誉、不安。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Physician",
+            "text_ja": "医師"
+          },
+          {
+            "id": "reversed:1",
+            "text_en": "Magus",
+            "text_ja": "魔術師"
+          },
+          {
+            "id": "reversed:2",
+            "text_en": "mental disease",
+            "text_ja": "精神の病"
+          },
+          {
+            "id": "reversed:3",
+            "text_en": "disgrace",
+            "text_ja": "不名誉"
+          },
+          {
+            "id": "reversed:4",
+            "text_en": "disquiet",
+            "text_ja": "不安"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "大アルカナは上流で追加意味欄がnull。補完しない。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "大アルカナは上流で追加意味欄がnull。補完しない。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "address / subtlety",
+        "note_ja": "addressは住所・演説ではなく応対の巧みさ、subtletyは巧妙さを採用。機転・器用さ・狡猾さなどの含意は文脈で変わり得る。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "the Querent, if male",
+        "note_ja": "原文の男性条件を省略せず訳した。あらゆる性別の相談者に拡張する場合は別の現代的編集となる。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "reversed",
+        "term_en": "Physician, Magus",
+        "note_ja": "医師・魔術師という人物を指す語を、そのまま保持。逆位置だから詐欺師・悪い医師という意味にはしていない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "reversed",
+        "term_en": "mental disease / disquiet",
+        "note_ja": "精神の病・不安を採用。disquietには動揺・不穏もあり得る。歴史的語句を診断や特定疾患へ接続しない。",
+        "status": "translation_choice"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "技量・自信・意志という働きと、苦痛・損失などの困難が併記される。肯定的な能力だけに絞らない編集上の要約。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "upright:1",
+        "upright:4",
+        "upright:6",
+        "upright:9",
+        "upright:10",
+        "reversed:0",
+        "reversed:1",
+        "reversed:3",
+        "reversed:4"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "技量や交渉力、自信を使う場面として読める一方、病気・苦痛・喪失・災難・敵の罠も原文にある。どの語群を採るかは問いと状況に依存し、成功を保証しない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "upright:1",
+        "upright:4",
+        "upright:6",
+        "upright:9",
+        "upright:10"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "不名誉や不安を検討できる。医師・魔術師という人物指示も残るため、すべてを能力不足・欺瞞という一義的な読みにはまとめない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "reversed:1",
+        "reversed:3",
+        "reversed:4"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "自分の技量を何に使っているか、自信と実際の準備が対応しているか、という問いに使える。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "「創造」「具現化」「逆位置は必ず詐欺・才能の浪費」といった定型句は今回の意味欄からは導入していない。",
+    "rationale_ja": "evidence_unitsで指した原文語句から編集者が整理した読み。原文の翻訳でも、唯一の解釈でもない。applicationは原典にはない問いかけである。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-23",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・忠実訳・語句分割と対応・曖昧さの注記・独自解釈・検証状態を追加。英語原文は保存済みデータから引用。原典保存領域への変更なし。",
+    "endorsement": false
+  },
+  "rank": null
+}

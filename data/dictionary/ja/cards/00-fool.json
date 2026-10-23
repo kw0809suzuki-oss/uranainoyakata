@@ -1,0 +1,275 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.1.0",
+  "card_id": "00-fool",
+  "numeric_id": 0,
+  "name_en": "The Fool",
+  "name_ja": "愚者",
+  "arcana": "major",
+  "suit": null,
+  "number": 0,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 1,
+    "record_selector": {
+      "card_id": "00-fool"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L1",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §3",
+        "text_en": "Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
+        "text_sha256": "59f60a49e52830f046e10ab314a553eab6564983b0c133220d0dd185256fbe27",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §3",
+        "text_en": "Negligence, absence, distribution, carelessness, apathy, nullity, vanity.",
+        "text_sha256": "c554f130e93c1d366e20e8cf9d30981332e2877be257a2fdce094fd6222407a0",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": null,
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": null,
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる語句対照付きの忠実訳試作。現代的定型解説による補完はしない。",
+    "fields": {
+      "upright": {
+        "text_ja": "愚行、狂気、浪費、酩酊、せん妄、狂乱、暴露。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Folly",
+            "text_ja": "愚行"
+          },
+          {
+            "id": "upright:1",
+            "text_en": "mania",
+            "text_ja": "狂気"
+          },
+          {
+            "id": "upright:2",
+            "text_en": "extravagance",
+            "text_ja": "浪費"
+          },
+          {
+            "id": "upright:3",
+            "text_en": "intoxication",
+            "text_ja": "酩酊"
+          },
+          {
+            "id": "upright:4",
+            "text_en": "delirium",
+            "text_ja": "せん妄"
+          },
+          {
+            "id": "upright:5",
+            "text_en": "frenzy",
+            "text_ja": "狂乱"
+          },
+          {
+            "id": "upright:6",
+            "text_en": "bewrayment",
+            "text_ja": "暴露"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "怠慢、不在、分配、不注意、無関心、無価値、虚栄。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Negligence",
+            "text_ja": "怠慢"
+          },
+          {
+            "id": "reversed:1",
+            "text_en": "absence",
+            "text_ja": "不在"
+          },
+          {
+            "id": "reversed:2",
+            "text_en": "distribution",
+            "text_ja": "分配"
+          },
+          {
+            "id": "reversed:3",
+            "text_en": "carelessness",
+            "text_ja": "不注意"
+          },
+          {
+            "id": "reversed:4",
+            "text_en": "apathy",
+            "text_ja": "無関心"
+          },
+          {
+            "id": "reversed:5",
+            "text_en": "nullity",
+            "text_ja": "無価値"
+          },
+          {
+            "id": "reversed:6",
+            "text_en": "vanity",
+            "text_ja": "虚栄"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "語句の列挙と限定条件を保持。訳文中へ占い上の説明を追加していない。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "大アルカナは上流で追加意味欄がnull。補完しない。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "大アルカナは上流で追加意味欄がnull。補完しない。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "mania / delirium / frenzy",
+        "note_ja": "狂気・せん妄・狂乱と訳し分けた。歴史的な列挙であり、現代の医学的診断との同一性を意味しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "extravagance",
+        "note_ja": "浪費を暫定採用。行き過ぎ・突飛さの含意もあり、金銭だけに限定できない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "bewrayment",
+        "note_ja": "古語。暴露を暫定採用したが、裏切り・露呈などの語義選択は歴史的語法の追加確認が必要。原文の綴りは修正しない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "reversed",
+        "term_en": "absence / distribution / nullity / vanity",
+        "note_ja": "不在・分配・無価値・虚栄を暫定採用。不注意・散漫さへの一括言換えはしない。absenceの心の不在、nullityの無効、vanityの空虚さ等の可能性は未決着。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "判断や振る舞いの行き過ぎと、注意・関与の不足。これは今回の語句群をまとめた編集上の中心であり、カードの普遍的定義ではない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "upright:2",
+        "upright:3",
+        "upright:5",
+        "reversed:0",
+        "reversed:3",
+        "reversed:4",
+        "reversed:6"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "衝動や熱狂に押され、節度を失っている可能性を検討する。暴露の語は暫定訳のため断定的な読みには使わない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "upright:2",
+        "upright:3",
+        "upright:5"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "注意を向けないこと、関与の薄さ、見栄を検討する。distributionを直ちに散漫と読み替えない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "reversed:3",
+        "reversed:4",
+        "reversed:6"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "いま勢いに任せている点、確認を省いている点は何か、という問いに使える。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "「自由」「新しい旅立ち」「無限の可能性」は今回翻訳した意味欄にないため、翻訳にも原典由来の中心意味にも追加していない。",
+    "rationale_ja": "evidence_unitsで指した原文語句から編集者が整理した読み。原文の翻訳でも、唯一の解釈でもない。applicationは原典にはない問いかけである。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-23",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・忠実訳・語句分割と対応・曖昧さの注記・独自解釈・検証状態を追加。英語原文は保存済みデータから引用。原典保存領域への変更なし。",
+    "endorsement": false
+  },
+  "rank": null
+}
