@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap');
+:root {
+  --z-overlay: 400;
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+  --z-critical: 2000; /* Critical system notifications */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+:root {
+--background:#111526; --foreground:#f6eee0; --surface:#1b2134; --surface-foreground:#f6eee0; --sidebar:#171b2d; --sidebar-foreground:#f6eee0; --card:#22273c; --card-foreground:#f6eee0; --popup:#242940; --popup-foreground:#f6eee0;
+--primary:#d6ad6d; --primary-foreground:#171423; --secondary:#34334c; --secondary-foreground:#f6eee0; --accent:#d6ad6d; --accent-foreground:#171423; --muted:#292e42; --muted-foreground:#b7b2bd;
+--success:#79b9a2; --success-foreground:#0a251f; --error:#d78292; --error-foreground:#34121c; --warning:#e6bf77; --warning-foreground:#332512; --info:#98b8e9; --info-foreground:#0d2345; --info-hover:#a6c4ef; --info-active:#799fcf; --border:#454358;
+--font-family-base:'Manrope',sans-serif; --font-family-display:'Shippori Mincho',serif; --font-family-monospace:monospace; --font-family-cursive:'Shippori Mincho',serif;
+--shadow:0 4px 20px #0003; --shadow-md:0 12px 30px #0005; --shadow-lg:0 22px 50px #0007; --shadow-focus:0 0 0 3px #d6ad6d55;
+--radius-sm:6px; --radius:10px; --radius-md:14px; --radius-lg:20px; --radius-full:999px;
+--animation-duration-fast:120ms; --animation-duration-normal:260ms; --animation-duration-slow:420ms;
+--chart-color-1:#d6ad6d; --chart-color-2:#a1a8d3; --chart-color-3:#84b9a6; --chart-color-4:#da90b0; --chart-color-5:#a1a1b5;
+}
+.dark { --background:#111526; --foreground:#f6eee0; --surface:#1b2134; --surface-foreground:#f6eee0; --sidebar:#171b2d; --sidebar-foreground:#f6eee0; --card:#22273c; --card-foreground:#f6eee0; --popup:#242940; --popup-foreground:#f6eee0; --primary:#d6ad6d; --primary-foreground:#171423; --secondary:#34334c; --secondary-foreground:#f6eee0; --accent:#d6ad6d; --accent-foreground:#171423; --muted:#292e42; --muted-foreground:#b7b2bd; --border:#454358; }

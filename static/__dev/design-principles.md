@@ -1,0 +1,1 @@
+Midnight tarot atelier: deep ink-blue surfaces, antique gold as single signal, fine borders, poetic Japanese serif headings and quiet modern controls. Dark-only, generous pacing, soft layered card treatment, no neon or excessive glow. Card surfaces should feel like precious paper, not dashboard tiles.
