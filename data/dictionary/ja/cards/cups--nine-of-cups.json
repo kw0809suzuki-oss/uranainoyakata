@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "cups/nine-of-cups",
+  "numeric_id": 44,
+  "name_en": "Nine of Cups",
+  "name_ja": "カップの9",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 9,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 45,
+    "record_selector": {
+      "card_id": "cups/nine-of-cups"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L45",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+        "text_sha256": "5545b7e42c98c48d8cda66bd5714f2c73364e3e7529418bd31a7e4ae50cd30e2",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.",
+        "text_sha256": "e87bb99d99efac130aecdbba840d53e3976a5973eaf692cb5d7263daecd55a06",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "Of good augury for military men.",
+        "text_sha256": "33c5b92603dfa64671de0aff757f789faf26124dc2d496426e277504eaa80589",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Good business.",
+        "text_sha256": "d5c2f9028fe8be74723b22296ff26865f8d9c7ba88845ff6a66bdc87ee8687b3",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "和合、満足、身体的な安楽；また勝利、成功、利益；相談者またはそのために相談が行われる人物の満足。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+            "text_ja": "和合、満足、身体的な安楽；また勝利、成功、利益；相談者またはそのために相談が行われる人物の満足。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "真実、忠誠、自由；ただし読みはさまざまで、誤り、不完全さなども含む。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.",
+            "text_ja": "真実、忠誠、自由；ただし読みはさまざまで、誤り、不完全さなども含む。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "軍人にとって、よい兆し。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "Of good augury for military men.",
+            "text_ja": "軍人にとって、よい兆し。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "よい商売。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Good business.",
+            "text_ja": "よい商売。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "reversed",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "満足・成功と、真実・自由から誤りまでの異なる読み。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "満足や安楽、利益を読む候補。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "真実・忠誠・自由と、誤りや不完全さを併置する。逆位置を過剰な満足だけで説明しない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": null
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "cups/eight-of-cups",
+  "numeric_id": 43,
+  "name_en": "Eight of Cups",
+  "name_ja": "カップの8",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 8,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 44,
+    "record_selector": {
+      "card_id": "cups/eight-of-cups"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L44",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "The card speaks for itself on the surface, but other readings are entirely antithetical—giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence—either for good or evil.",
+        "text_sha256": "e0539d9358ede1a9b21462d7f89ab402aff81a339dc599004464b353e4d391fa",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Great joy, happiness, feasting.",
+        "text_sha256": "bb017973c13ff5b6112c8ee78eefb2eb2f19d2472a9301f2841999765eab6aa9",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "Marriage with a fair woman.",
+        "text_sha256": "9f29c20a1df4915aa70b72929958367f060b3d4e19c681537b1687c0a5a06609",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Perfect satisfaction.",
+        "text_sha256": "ec846b98313b4ee60d01b5393a7972d3fa589c3613f5a13791be49a01c24a09d",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "表面上はカード自身が語っているが、ほかの読みはまったく正反対であり、喜び、穏やかさ、臆病、名誉、慎みを挙げる。実際には、このカードは通常、ある事柄の衰え、または重要と思われていた事柄が、よい意味でも悪い意味でも実はささいなものだったことを示すとされる。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "The card speaks for itself on the surface, but other readings are entirely antithetical—giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence—either for good or evil.",
+            "text_ja": "表面上はカード自身が語っているが、ほかの読みはまったく正反対であり、喜び、穏やかさ、臆病、名誉、慎みを挙げる。実際には、このカードは通常、ある事柄の衰え、または重要と思われていた事柄が、よい意味でも悪い意味でも実はささいなものだったことを示すとされる。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "大きな喜び、幸福、宴。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Great joy, happiness, feasting.",
+            "text_ja": "大きな喜び、幸福、宴。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "色の明るい女性との結婚。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "Marriage with a fair woman.",
+            "text_ja": "色の明るい女性との結婚。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "完全な満足。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Perfect satisfaction.",
+            "text_ja": "完全な満足。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "additional_upright",
+        "term_en": "fair",
+        "note_ja": "人物描写では色の明るいという暫定訳。色白・髪色・美しさ等の語義選択は文脈確認が必要。一般的なよさや公平さへ一律に置換しない。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "事柄の衰えや重要度の変化と、反対方向の喜び・名誉。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "衰えを読む候補と、原文が反対とする喜び・名誉の読みを統合せず残す。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "喜びや満足を読む候補。逆位置を失意としない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": null
+}

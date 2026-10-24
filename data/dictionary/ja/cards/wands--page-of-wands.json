@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "wands/page-of-wands",
+  "numeric_id": 32,
+  "name_en": "Page of Wands",
+  "name_ja": "ワンドのペイジ",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 11,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 33,
+    "record_selector": {
+      "card_id": "wands/page-of-wands"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L33",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.",
+        "text_sha256": "f405f29d307d258e5754e096b4886fcc961708cdf95f71af16d23104b3db612d",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.",
+        "text_sha256": "e3f378a434c2203e806acca3d983174d53e1dce3657e5a3383469aa7354803f8",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "Young man of family in search of young lady.",
+        "text_sha256": "3c9370f8300fe00a0a7b00ea3f348ca0ef76c7ccdf093c81b2fabf5a65e7f6fd",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Bad news.",
+        "text_sha256": "99f4820d2ad26c04d80ae0443babfb3a79995ccb84812aaa169d3b7654a12728",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "色の濃い若い男性、忠実な者、恋人、使者、郵便配達人。男性の隣なら、その男性に有利な証言をする。カップのペイジが後に続くなら、危険な恋敵。このスートの主な性質を持つ。家族に関する知らせを意味することもある。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.",
+            "text_ja": "色の濃い若い男性、忠実な者、恋人、使者、郵便配達人。男性の隣なら、その男性に有利な証言をする。カップのペイジが後に続くなら、危険な恋敵。このスートの主な性質を持つ。家族に関する知らせを意味することもある。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "逸話、発表、悪い知らせ。また優柔不断と、それに伴う不安定さ。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.",
+            "text_ja": "逸話、発表、悪い知らせ。また優柔不断と、それに伴う不安定さ。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "若い女性を探している、家柄のある若い男性。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "Young man of family in search of young lady.",
+            "text_ja": "若い女性を探している、家柄のある若い男性。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "悪い知らせ。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Bad news.",
+            "text_ja": "悪い知らせ。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "dark",
+        "note_ja": "色の濃いという暫定訳。髪・目・肌など、どの外見的特徴を指すかはこの欄だけでは確定しない。邪悪さや特定の民族を意味する語に置換しない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "intelligence",
+        "note_ja": "知らせと知性の両方の語義がある。今回、family/speedy/bad intelligenceでは知らせ、人物の能力記述では知性と訳し分けた。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "人物・配置・隣接等の条件",
+        "note_ja": "原文の人物や配置の条件はその文の適用範囲。条件を外して単独カードの無条件の意味にしない。歴史的な性別・身分の描写を現代の人物分類へ一般化しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "reversed",
+        "term_en": "人物・配置・隣接等の条件",
+        "note_ja": "原文の人物や配置の条件はその文の適用範囲。条件を外して単独カードの無条件の意味にしない。歴史的な性別・身分の描写を現代の人物分類へ一般化しない。",
+        "status": "translation_choice"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "人物・使者・知らせと、隣接によって変わる役割。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "忠実な使者や知らせの読みの候補。恋敵の読みはカップのペイジが後続する条件付き。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "知らせや迷い、不安定さを読む候補。原文の人物条件は保持する。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": "Page"
+}

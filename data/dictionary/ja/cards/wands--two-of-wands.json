@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "wands/two-of-wands",
+  "numeric_id": 23,
+  "name_en": "Two of Wands",
+  "name_ja": "ワンドの2",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 2,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 24,
+    "record_selector": {
+      "card_id": "wands/two-of-wands"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L24",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth.",
+        "text_sha256": "4ba7a2b8bb82f996f471464b0c97a85a8de2646787960e2d5c90d7d84cad1e37",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Surprise, wonder, enchantment, emotion, trouble, fear.",
+        "text_sha256": "839cb6151d272b26f17db310f0095f12becb62512a421d8f09bb26c80958d592",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "A young lady may expect trivial disappointments.",
+        "text_sha256": "af8502a0ea7d99de0e3764a30640eee064939b2778cd9b82e82d55896691ea8d",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "これらの異なる読みを両立させることはできない；一方には富、幸運、壮麗さ、他方には肉体的苦痛、病気、落胆、悲しみ、屈辱がある。図柄は一つの示唆を与える；ここには領地を見下ろし、また地球儀を眺める領主がいる；それは、この世の富の壮大さのただ中にあるアレクサンドロスの病、屈辱、悲しみのように見える。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth.",
+            "text_ja": "これらの異なる読みを両立させることはできない；一方には富、幸運、壮麗さ、他方には肉体的苦痛、病気、落胆、悲しみ、屈辱がある。図柄は一つの示唆を与える；ここには領地を見下ろし、また地球儀を眺める領主がいる；それは、この世の富の壮大さのただ中にあるアレクサンドロスの病、屈辱、悲しみのように見える。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "驚き、驚嘆、魅惑、感情、苦難、恐れ。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Surprise, wonder, enchantment, emotion, trouble, fear.",
+            "text_ja": "驚き、驚嘆、魅惑、感情、苦難、恐れ。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "若い女性は、ささいな失望を予期してよい。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "A young lady may expect trivial disappointments.",
+            "text_ja": "若い女性は、ささいな失望を予期してよい。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "上流がnullのため翻訳もnull。補完しない。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "fortune",
+        "note_ja": "幸運・財産・財運等の幅がある。周辺の金銭・成功の記述に応じて訳し分けたが、単一語義へ固定しない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "mortification",
+        "note_ja": "屈辱を暫定採用。苦悶・落胆や禁欲等の含意もあり得るが、今回の文脈での採用語義の独立確認は未実施。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "no marriage possible",
+        "note_ja": "ここは異なる読みの両立ができないという比喩。結婚できないという占意にはしない。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "富や壮麗さと苦痛・悲しみ。原文が両立不能とする読みの並存。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "富と苦悩を一つの成功物語へ統合せず、異なる読みの候補として扱う。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "驚き・魅惑から苦難・恐れまで、評価方向の異なる反応を読む候補。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": null
+}

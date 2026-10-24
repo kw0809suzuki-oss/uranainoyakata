@@ -1,42 +1,54 @@
-# 占いの館｜タロット日本語辞典 v0.1
+# 占いの館｜タロット日本語辞典 v0.2
 
-愚者・魔術師・カップの2の3枚だけを作成した試作。78枚への展開とアプリ組込みは行わない。
+RWS系タロット78枚の日本語辞典試作。v0.1の3枚を保持し、2026-10-24に残り75枚を追加した。アプリへの組込みは行っていない。
 
-- [3枚の閲覧用本文](PREVIEW.md)
+- [78枚の索引](INDEX.md)
+- [原文・訳・解釈候補の全文](PREVIEW.md)
+- [検証報告・次工程の条件](REVIEW.md)
 - [出典・帰属・変更表示](ATTRIBUTION.md)
-- [検証報告と次工程の条件](REVIEW.md)
-- `cards/*.json`：カード別の正本。
-- `card.schema.json`：JSON Schema 2020-12。
-- `render.py`：JSONから閲覧用Markdownを再生成する。
-- `validate.py`：標準ライブラリで原文対応・語句漏れ・参照先・状態を検査する読取専用スクリプト。
+- [語義の補助確認](LEXICAL-NOTES.md)
+- `cards/*.json`：カードごとの正本。
+- `card.schema.json`：全78枚に共通するJSON Schema 2020-12（構造版0.1.0を維持）。
+- `validate.py`：原文・ID・出典・対照・参照・null・条件等の読取専用検証。
+- `render.py`：JSONから閲覧用本文と索引を再生成。
+- `validation-v0.2.json`：全78枚の機械検証結果。
+- `validator-mutation-review.json`：欠落・改変を検出する検証器の確認結果。
 
-## 形式の選択
+## 形式と版
 
-JSONを正本にする。翻訳、原文参照、根拠語句、複数の曖昧語、未決着の事項を階層で保持でき、アプリでも利用できるため。CSVではこれらの一対多の関係とnullの意味が崩れやすい。Markdownだけでは機械検証が難しい。`PREVIEW.md`はJSONから生成した閲覧用の副本で、修正時はJSONと同期して再生成する。
+階層と複数の注記・根拠を保持できるJSONを正本とする。CSVの一枚表に平坦化して、別説・正逆・不在・未解決を混ぜない。Markdownは閲覧用の副本。
 
-## 構造と編集規約
+コレクションはv0.2。既存3枚のJSONはバイト単位で変更せず、カードごとの`dictionary_version`は0.1.0のまま。追加75枚は0.2.0。全カードは同じ構造版`schema_version=0.1.0`を使う。
 
 | フィールド | 内容 |
 | --- | --- |
-| `source` | 上流版・コミット、ローカル固定コミット、card_id選択、JSONL行、フィールドのJSON Pointer、出典ID・節、英語引用とSHA-256。行番号だけで同定しない。 |
-| `translation.fields` | 正位置・逆位置・追加正位置・追加逆位置を個別に保持。全文訳と語句単位の英日対照。 |
-| `translation.ambiguities` | 語義の選択理由・未決着点。`unresolved`を採用済みと扱わない。 |
-| `interpretation` | 原文語句を根拠とする編集上の要約・読みと、根拠を持たない独自の実用上の問いを分類。すべて翻訳と別。 |
-| `verification` | データ照合、AI自己確認、人間の校閲、歴史資料再校合、公開状態を別々に保持。 |
-| `unresolved` | 未確認の問い、状態、未解決ならnullの解決記録。 |
-| `rights` | 帰属文書への参照、上流ライセンス、今回の変更、非推薦。 |
+| `source` | 固定した原典の版・コミット、card_id、JSONL行、JSON Pointer、出典ID・節、英語の全文とSHA-256。 |
+| `translation.fields` | 正位置・逆位置・追加正位置・追加逆位置を個別に保持。日本語全文と英日対照単位。すべて暫定訳。 |
+| `translation.ambiguities` | 訳語選択の理由と保留。`unresolved`は未解決。記載された候補のすべてが原文文脈で成立すると保証するものではない。 |
+| `interpretation` | 今回の要約候補と正逆の読み、根拠ID、原典にない実用上の問い。訳文とは別。 |
+| `verification` | 機械的な原文対応、AI自己確認、人間の校閲、歴史資料再校合を分離。 |
+| `unresolved` | 未解決の問いと状態。解決記録は未解決ならnull。 |
+| `rights` | 帰属先、ライセンス、変更表示、非推薦。 |
 
-語句IDは`upright:0`等。英語引用は原典フィールドをそのまま保持し、語句分割だけは今回の編集。句読点は分割時に外れるため全文引用も保持する。訳文の文体調整や古語の多義性は注記し、都合のよい語だけ抜き取らない。
+## 対照単位の粒度
 
-`null`は値の不在を保持する。`source.fields.*.availability`は`present` / `not_applicable` / `unknown`を区別し、推測で補完しない。現在の大アルカナ追加欄は`not_applicable`。未確認の印刷ページと未解決の解決記録もnull。
+既存3枚は語句単位の英日対照。追加75枚は各意味欄の段落全体を一つの対照単位（例：`upright:0`）とした。後者では根拠IDも段落を指すため、語句ごとの細かい根拠対応までは保証しない。全文と人物・配置・別説等の条件を保ち、語句別の精密な編集は今後の作業として残す。
 
-翻訳は`provisional` / `reviewed` / `not_applicable` / `pending`、独立校閲は`pending` / `complete`、歴史資料校合は`not_performed` / `complete`。今回は人間の校閲はpendingのまま。将来completeへ変更する際は確認者・対象・根拠を記録し、語義の未解決点を消さずに判断を追記する。
+## 要約候補と解釈の幅
 
-## 78枚への拡張
+`interpretation.central`は互換性のためフィールド名を維持し、表示を「今回の要約候補」とする。一つの要約が意味の全体を尽くすとは扱わない。原文の列挙語・別説・保留事項は全文へ戻って読める。抽出しなかった語句が無意味である、または他の解釈が成立しないと判断したわけではない。
 
-上流card_idをそのまま使い、ファイル名だけ`/`を`--`にする。`numeric_id`を独自採番しない。大／小アルカナ・スート・数値・宮廷rankを保持でき、同一スキーマで78枚を扱う。小アルカナの追加逆位置6件のnull等は上流に応じて`not_applicable`とする。データセットにない値は`unknown`等で保留する。今回は3枚だけを検証対象に固定し、全78枚の完成と誤認させない。
+原文が「調和できない」「異なる説」「同じ意味がより弱く」等と述べる箇所は、単一の成長物語や正逆の反対語に変換しない。要約や問いかけは編集上の候補であり、原典の翻訳として引用しない。
 
-出典はStarTarotによる転記・正規化データ。今回、歴史資料の画像を直接照合したわけではない。`historical_page_exact`は未確認のままnull。出典ID中の1910を使用版の年と解釈しない。Golden Dawn対応は意味欄と別系統のため今回使用しない。
+## 不在・不確定と歴史的条件
+
+nullは不在の保持。全312欄中262欄が非null、50欄がnull。大アルカナの追加正逆44欄と、小アルカナの追加逆位置6欄は補完しない。カップの2の基本逆位置は§4から採られており、同じ追加逆位置とは独立の裏付けに数えない。
+
+`availability`は`present` / `not_applicable` / `unknown`、翻訳は`provisional` / `reviewed` / `not_applicable` / `pending`等を表現できる。今回の非null訳文はすべて`provisional`。全カードの人間の校閲はpending、歴史資料の画像校合はnot_performed。個別の印刷ページはnullのまま。
+
+性別・婚姻・身分・外見の条件、病気・死等の語、時期や結果の断定は歴史資料にある表現として訳す。これらを現代の人物分類、診断、出来事の保証へ変換することは翻訳とは別の判断であり、今回行っていない。dark/fair、古語、多義語の採用訳も注記を併読する。
+
+StarTarotの意味欄はWaiteのPart IIIを転記・正規化したもの。図像説明や他章を含むカード全体の総合辞典ではない。Golden Dawn対応情報は別系統として今回の訳・解釈に使用しない。原典保存領域とアプリコードは変更していない。
 
 ## 再検証
 
@@ -45,10 +57,8 @@ JSONを正本にする。翻訳、原文参照、根拠語句、複数の曖昧�
 ```sh
 python3 scripts/validate_tarot_sources.py
 python3 data/dictionary/ja/validate.py
-# JSONを編集した後の閲覧用本文の再生成：
+# JSONを編集した後のみ：
 python3 data/dictionary/ja/render.py
-# jsonschemaが利用できる環境ではスキーマも検査できる：
-python3 -c 'import json,pathlib,jsonschema; p=pathlib.Path("data/dictionary/ja"); s=json.loads((p/"card.schema.json").read_text()); [jsonschema.Draft202012Validator(s).validate(json.loads(f.read_text())) for f in (p/"cards").glob("*.json")]'
 ```
 
-機械検証は語義や占いの有効性を証明しない。本文と曖昧語の確認は[検証報告](REVIEW.md)を参照。
+`validate.py`はこのスキーマで使用するキーワードだけを扱う標準ライブラリの限定実装。汎用JSON Schema処理系の完全な代替とはしない。意味の正しさを機械的に証明するものでもない。今後、人間の校閲や歴史資料との照合を実施したときは、対象・担当者・根拠を記録して状態を更新する。

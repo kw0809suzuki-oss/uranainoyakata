@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "05-hierophant",
+  "numeric_id": 5,
+  "name_en": "The Hierophant",
+  "name_ja": "教皇",
+  "arcana": "major",
+  "suit": null,
+  "number": 5,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 6,
+    "record_selector": {
+      "card_id": "05-hierophant"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L6",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §3",
+        "text_en": "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.",
+        "text_sha256": "b4b2fbb0c7d6e6d63d04ad89eb17fc356a367f802be501bf640651000bbef0d2",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §3",
+        "text_en": "Society, good understanding, concord, over-kindness, weakness.",
+        "text_sha256": "69677c8d0ef7b9a83b6efc18b007274233c728ff1474fd771bcb92a3ccb221ad",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": null,
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": null,
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "結婚、同盟、囚われ、隷属；別説では、慈悲と善良さ；霊感；相談者が頼る男性。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.",
+            "text_ja": "結婚、同盟、囚われ、隷属；別説では、慈悲と善良さ；霊感；相談者が頼る男性。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "交際、良好な理解、和合、過度の親切、弱さ。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Society, good understanding, concord, over-kindness, weakness.",
+            "text_ja": "交際、良好な理解、和合、過度の親切、弱さ。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "上流がnullのため翻訳もnull。補完しない。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "上流がnullのため翻訳もnull。補完しない。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "reversed",
+        "term_en": "Society / over-kindness",
+        "note_ja": "交際・過度の親切を暫定採用。societyは社会・社交・集団等もあり得る。上流が保持するover-kindnessの綴りを独自修正しない。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "結びつきと拘束、慈悲と依存先という異なる方向。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "結婚や同盟のつながりと、囚われや隷属の制約を同じものとせず読む候補。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "理解・和合と、過度の親切や弱さの両方を読む候補。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": null
+}

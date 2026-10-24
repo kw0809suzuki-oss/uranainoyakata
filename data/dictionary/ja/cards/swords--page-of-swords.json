@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "swords/page-of-swords",
+  "numeric_id": 60,
+  "name_en": "Page of Swords",
+  "name_ja": "ソードのペイジ",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 11,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 61,
+    "record_selector": {
+      "card_id": "swords/page-of-swords"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L61",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+        "text_sha256": "d4a5761f4034b1ebaf55048e9067b2176289714166087202d426fed672a80c03",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
+        "text_sha256": "7eceb4f08516f94e6c6177bca1037abbd7e578a5b7ae5c6ca19c4413e3871359",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "An indiscreet person will pry into the Querent's secrets.",
+        "text_sha256": "29755ede419b83c85f47e5e8bb1f47c7b8422c2d8cf0ea013e81f30c482dd24a",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Astonishing news.",
+        "text_sha256": "38c93f7c5ce2cf7112d31390f7dbd6f207e25a17450510f9db0de96f96bc88d1",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "権威、監督、秘密活動、警戒、偵察、調査、およびそれらに属する性質。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+            "text_ja": "権威、監督、秘密活動、警戒、偵察、調査、およびそれらに属する性質。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "これらの性質の、より悪い面；予期しないもの、準備のできていない状態；病気も示唆される。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
+            "text_ja": "これらの性質の、より悪い面；予期しないもの、準備のできていない状態；病気も示唆される。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "慎みのない人物が相談者の秘密を詮索する。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "An indiscreet person will pry into the Querent's secrets.",
+            "text_ja": "慎みのない人物が相談者の秘密を詮索する。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "驚くべき知らせ。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Astonishing news.",
+            "text_ja": "驚くべき知らせ。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "reversed",
+        "term_en": "前の記述への参照・程度の限定",
+        "note_ja": "この欄は正位置等の前の記述を参照している。単独の語だけでは足りないため、前の欄と比較・限定を併読する。",
+        "status": "translation_choice"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "監督・調査・警戒と、その悪い面や準備不足。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "調査や警戒を読む候補。監視や詮索との違いも考える。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "悪い面の現れや準備不足、驚く知らせを読む候補。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": "Page"
+}

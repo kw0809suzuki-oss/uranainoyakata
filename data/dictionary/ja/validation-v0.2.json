@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": 36248,
+  "dictionary_cards": 78,
+  "source_records": 78,
+  "translated_fields": {
+    "upright": 78,
+    "reversed": 78,
+    "additional_upright": 56,
+    "additional_reversed": 50
+  },
+  "translated_nonnull_fields_total": 262,
+  "preserved_null_fields": 50,
+  "schema_validation": "stdlib subset; only keywords in this schema",
+  "semantic_translation_check": "AI self review only; human review pending",
+  "historical_page_collation": "not_performed"
+}

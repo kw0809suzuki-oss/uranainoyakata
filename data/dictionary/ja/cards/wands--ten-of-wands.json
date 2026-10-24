@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "wands/ten-of-wands",
+  "numeric_id": 31,
+  "name_en": "Ten of Wands",
+  "name_ja": "ワンドの10",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 10,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 32,
+    "record_selector": {
+      "card_id": "wands/ten-of-wands"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L32",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+        "text_sha256": "1839dd2cfa64799baa3ca5501b0447f6567f2f9e927a9372b12d2f6f5ab26fdc",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Contrarieties, difficulties, intrigues, and their analogies.",
+        "text_sha256": "bce2f2dae3fa3495b014074f010bb2f14bf5118b55cc90c0f0c68140dc5cfa29",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "Difficulties and contradictions, if near a good card.",
+        "text_sha256": "3177e961bf35525db7396ab66fec0fc366171361944e0d9ec215db04fb8cc299",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": null,
+        "text_sha256": null,
+        "availability": "not_applicable"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "多くの意味を持つカードであり、読みのいくつかは調和させられない。私は、これを名誉と誠実さに結びつける読みを脇に置く。主な意味は単に圧迫だが、幸運、利益、あらゆる種類の成功でもあり、その場合にはそれらによる圧迫である。また偽りの外観、偽装、背信のカードでもある。人物が近づいている場所は、彼の運ぶ棒によって被害を受けるかもしれない。ソードの9が後に続くなら成功は無にされ、訴訟の問いなら確実な損失となる。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+            "text_ja": "多くの意味を持つカードであり、読みのいくつかは調和させられない。私は、これを名誉と誠実さに結びつける読みを脇に置く。主な意味は単に圧迫だが、幸運、利益、あらゆる種類の成功でもあり、その場合にはそれらによる圧迫である。また偽りの外観、偽装、背信のカードでもある。人物が近づいている場所は、彼の運ぶ棒によって被害を受けるかもしれない。ソードの9が後に続くなら成功は無にされ、訴訟の問いなら確実な損失となる。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "不都合、困難、陰謀、およびそれらに類するもの。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Contrarieties, difficulties, intrigues, and their analogies.",
+            "text_ja": "不都合、困難、陰謀、およびそれらに類するもの。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "よいカードの近くにあるなら、困難と矛盾。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "Difficulties and contradictions, if near a good card.",
+            "text_ja": "よいカードの近くにあるなら、困難と矛盾。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": null,
+        "units": [],
+        "status": "not_applicable",
+        "notes": [
+          "上流がnullのため翻訳もnull。補完しない。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "fortune",
+        "note_ja": "幸運・財産・財運等の幅がある。周辺の金銭・成功の記述に応じて訳し分けたが、単一語義へ固定しない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "人物・配置・隣接等の条件",
+        "note_ja": "原文の人物や配置の条件はその文の適用範囲。条件を外して単独カードの無条件の意味にしない。歴史的な性別・身分の描写を現代の人物分類へ一般化しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "additional_upright",
+        "term_en": "人物・配置・隣接等の条件",
+        "note_ja": "原文の人物や配置の条件はその文の適用範囲。条件を外して単独カードの無条件の意味にしない。歴史的な性別・身分の描写を現代の人物分類へ一般化しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "additional_upright",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "upright",
+        "term_en": "honour and good faith / certain loss",
+        "note_ja": "語り手が脇に置くと述べた読みを、採用した中心意味へ戻さない。lossは損失と訳し、敗訴のみに限定しない。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "圧迫と、成功が生む重圧。別の読みや隣接条件もある。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "重圧・利益・偽装を別々の候補として保持する。後続カードや訴訟の条件を落とさない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "困難や陰謀を読む候補。正位置と同様、周囲の条件を含めて検討する。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": null
+}

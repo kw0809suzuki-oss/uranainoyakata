@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "swords/seven-of-swords",
+  "numeric_id": 56,
+  "name_en": "Seven of Swords",
+  "name_ja": "ソードの7",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 7,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 57,
+    "record_selector": {
+      "card_id": "swords/seven-of-swords"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L57",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+        "text_sha256": "2ae6838ca46fef483031343a3cd8273143fd569dffa5e8e95e6ff62d471ae8fb",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Good advice, counsel, instruction, slander, babbling.",
+        "text_sha256": "3a9901ea913210fdd737499da326060311348177c36be5076a50a2c0fc7d40e7",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "Dark girl; a good card; it promises a country life after a competence has been secured.",
+        "text_sha256": "b528db26258da3eb2b201b7ee397ab0702750e5521c0a9112abecedbdbb7f6a8",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Good advice, probably neglected.",
+        "text_sha256": "812c5be99d2496e2c2ec3d9917231df036365e3f9fa263bc64642cdd5d76ce97",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "企て、試み、願い、希望、自信；また口論、失敗するかもしれない計画、いらだち。意味が互いに大きく食い違うので、図柄の含意は定かではない。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+            "text_ja": "企て、試み、願い、希望、自信；また口論、失敗するかもしれない計画、いらだち。意味が互いに大きく食い違うので、図柄の含意は定かではない。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "よい助言、相談、教え、中傷、おしゃべり。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Good advice, counsel, instruction, slander, babbling.",
+            "text_ja": "よい助言、相談、教え、中傷、おしゃべり。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "色の濃い少女；よいカード；暮らしに十分な財産が確保された後の田園生活を約束する。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "Dark girl; a good card; it promises a country life after a competence has been secured.",
+            "text_ja": "色の濃い少女；よいカード；暮らしに十分な財産が確保された後の田園生活を約束する。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "よい助言、おそらく無視される。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Good advice, probably neglected.",
+            "text_ja": "よい助言、おそらく無視される。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "別説・矛盾・反対の読み",
+        "note_ja": "原文が別の読み、食い違い、矛盾を示す箇所。異なる意味を一つの因果関係へ整形しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "additional_upright",
+        "term_en": "dark",
+        "note_ja": "色の濃いという暫定訳。髪・目・肌など、どの外見的特徴を指すかはこの欄だけでは確定しない。邪悪さや特定の民族を意味する語に置換しない。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "計画・希望と失敗の可能性、助言と中傷という食い違い。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "希望や自信と、失敗し得る計画を併置し、原文の不確定さを保持する候補。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "よい助言と中傷を分けて読む候補。助言が無視され得るという追加も残す。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": null
+}

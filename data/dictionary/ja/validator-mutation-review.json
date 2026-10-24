@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-24",
+  "passed": true,
+  "cases": [
+    {
+      "case": "wrong_numeric_id",
+      "detected": true,
+      "message": "ValueError: 17-star.numeric_id: maximum"
+    },
+    {
+      "case": "swapped_upright_reversed_source",
+      "detected": true,
+      "message": "ValueError: 17-star/upright: verbatim"
+    },
+    {
+      "case": "missing_translation",
+      "detected": true,
+      "message": "ValueError: 17-star/upright: provisional"
+    },
+    {
+      "case": "invalid_evidence_reference",
+      "detected": true,
+      "message": "ValueError: 17-star/central: evidence"
+    },
+    {
+      "case": "source_text_changed",
+      "detected": true,
+      "message": "ValueError: 17-star/upright: verbatim"
+    },
+    {
+      "case": "omitted_alternative_reading_with_matching_translation_unit",
+      "detected": true,
+      "message": "ValueError: 17-star: retained qualifier"
+    },
+    {
+      "case": "missing_card",
+      "detected": true,
+      "message": "ValueError: complete 78-card scope"
+    }
+  ],
+  "boundary": "Only these deliberately introduced faults were tested; this is not semantic translation verification."
+}

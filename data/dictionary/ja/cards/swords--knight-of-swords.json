@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "dictionary_version": "0.2.0",
+  "card_id": "swords/knight-of-swords",
+  "numeric_id": 61,
+  "name_en": "Knight of Swords",
+  "name_ja": "ソードのナイト",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 12,
+  "source": {
+    "dataset_id": "startarot-rws",
+    "dataset_version": "1.1.0",
+    "upstream_commit": "e9ada73c4a3fa8788dbf896f619c3213bd681b3c",
+    "local_commit": "0dd250333976cf9d6dd6ce47fb7866ecd4b35749",
+    "file": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl",
+    "line_1based": 62,
+    "record_selector": {
+      "card_id": "swords/knight-of-swords"
+    },
+    "record_url": "https://github.com/kw0809suzuki-oss/uranainoyakata/blob/0dd250333976cf9d6dd6ce47fb7866ecd4b35749/data/sources/tarot-rws-dataset/v1.1.0/upstream/data/cards.jsonl#L62",
+    "source_id": "waite-pictorial-key-1910-part-iii",
+    "bibliography": "Arthur Edward Waite, The Pictorial Key to the Tarot (1911; text of the 1922 reprint).",
+    "registry_path": "data/sources/tarot-rws-dataset/v1.1.0/upstream/data/README.md#source-registry",
+    "historical_page_exact": null,
+    "historical_page_check": "not_performed",
+    "fields": {
+      "upright": {
+        "json_pointer": "/divinatory_meanings/upright",
+        "section": "Part III §2",
+        "text_en": "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
+        "text_sha256": "f7fe975c0c8a6ab8b0ad97d7f615686f197bd8f38bbddfc43494be42d870a29e",
+        "availability": "present"
+      },
+      "reversed": {
+        "json_pointer": "/divinatory_meanings/reversed",
+        "section": "Part III §2",
+        "text_en": "Imprudence, incapacity, extravagance.",
+        "text_sha256": "a92d55a762f148ee39c77559313ebb13377db72196eba4f731b94f51ff32ceea",
+        "availability": "present"
+      },
+      "additional_upright": {
+        "json_pointer": "/divinatory_meanings/additional_upright",
+        "section": "Part III §4",
+        "text_en": "A soldier, man of arms, satellite, stipendiary; heroic action predicted for soldier.",
+        "text_sha256": "56a74381d5e591b945e19f49b826d90a2ffce00636d66d25d58dc8eb7c179467",
+        "availability": "present"
+      },
+      "additional_reversed": {
+        "json_pointer": "/divinatory_meanings/additional_reversed",
+        "section": "Part III §4",
+        "text_en": "Dispute with an imbecile person; for a woman, struggle with a rival, who will be conquered.",
+        "text_sha256": "8e7a0a357aecf2a44d34f9a49ef800aca2c19303a8bed9bc4d52ec8ead47edb9",
+        "availability": "present"
+      }
+    },
+    "excluded_fields": [
+      "correspondence（Golden Dawn対応情報。今回の翻訳・解釈には使用しない）"
+    ]
+  },
+  "translation": {
+    "language": "ja",
+    "method": "AIによる忠実訳試作。非nullの各意味欄を段落単位で英日対照する。既存3枚の語句単位対照とは粒度が異なる。現代的定型解説で補完しない。",
+    "fields": {
+      "upright": {
+        "text_ja": "技量、勇敢さ、能力、防御、応対の巧みさ、敵意、怒り、戦争、破壊、対立、抵抗、破滅。したがって死を意味する面もあるが、この意味を持つのは、ほかの宿命を示すカードの近くにある場合だけである。",
+        "units": [
+          {
+            "id": "upright:0",
+            "text_en": "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
+            "text_ja": "技量、勇敢さ、能力、防御、応対の巧みさ、敵意、怒り、戦争、破壊、対立、抵抗、破滅。したがって死を意味する面もあるが、この意味を持つのは、ほかの宿命を示すカードの近くにある場合だけである。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "reversed": {
+        "text_ja": "不慎重、無能力、浪費。",
+        "units": [
+          {
+            "id": "reversed:0",
+            "text_en": "Imprudence, incapacity, extravagance.",
+            "text_ja": "不慎重、無能力、浪費。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_upright": {
+        "text_ja": "兵士、武人、従者、俸給を受ける者；兵士には英雄的行動が予言される。",
+        "units": [
+          {
+            "id": "additional_upright:0",
+            "text_en": "A soldier, man of arms, satellite, stipendiary; heroic action predicted for soldier.",
+            "text_ja": "兵士、武人、従者、俸給を受ける者；兵士には英雄的行動が予言される。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      },
+      "additional_reversed": {
+        "text_ja": "愚かな人物との争い；女性には、打ち負かされることになる恋敵との闘争。",
+        "units": [
+          {
+            "id": "additional_reversed:0",
+            "text_en": "Dispute with an imbecile person; for a woman, struggle with a rival, who will be conquered.",
+            "text_ja": "愚かな人物との争い；女性には、打ち負かされることになる恋敵との闘争。"
+          }
+        ],
+        "status": "provisional",
+        "notes": [
+          "忠実訳の暫定案。別説・人物条件・比較・限定を保持し、解釈は別欄に置く。対照単位は意味欄の段落全体。"
+        ]
+      }
+    },
+    "ambiguities": [
+      {
+        "field": "upright",
+        "term_en": "fatality",
+        "note_ja": "宿命を暫定採用。不可避性・災難・死に関わる含意の選択は文脈の再確認が必要。現実の不可避な結果を意味するとは判定しない。",
+        "status": "unresolved"
+      },
+      {
+        "field": "upright",
+        "term_en": "人物・配置・隣接等の条件",
+        "note_ja": "原文の人物や配置の条件はその文の適用範囲。条件を外して単独カードの無条件の意味にしない。歴史的な性別・身分の描写を現代の人物分類へ一般化しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "additional_upright",
+        "term_en": "satellite",
+        "note_ja": "従者を暫定採用。追随者・取り巻き等の歴史的な人物指示を想定したが、同時代用例の独立確認は未実施。",
+        "status": "unresolved"
+      },
+      {
+        "field": "additional_reversed",
+        "term_en": "人物・配置・隣接等の条件",
+        "note_ja": "原文の人物や配置の条件はその文の適用範囲。条件を外して単独カードの無条件の意味にしない。歴史的な性別・身分の描写を現代の人物分類へ一般化しない。",
+        "status": "translation_choice"
+      },
+      {
+        "field": "additional_reversed",
+        "term_en": "imbecile person",
+        "note_ja": "愚かな人物という暫定訳。歴史的な侮蔑表現であり、現代の知的能力・疾患の判定にはしない。",
+        "status": "unresolved"
+      }
+    ]
+  },
+  "interpretation": {
+    "central": {
+      "text_ja": "技量・防御・勇敢さと、敵意や破壊の併存。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "reversed:0",
+        "additional_upright:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "upright": {
+      "text_ja": "能力や防衛と破壊的な方向を別々に読む候補。死への言及に付いた隣接条件を落とさない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "upright:0",
+        "additional_upright:0"
+      ],
+      "status": "draft"
+    },
+    "reversed": {
+      "text_ja": "不慎重さや力の不足・浪費を読む候補。歴史的な蔑称を現代の人物診断にしない。",
+      "kind": "source_based_editorial",
+      "evidence_units": [
+        "reversed:0",
+        "additional_reversed:0"
+      ],
+      "status": "draft"
+    },
+    "application": {
+      "text_ja": "このカードの各読みのうち、今の問いに関係するものはどれか。関係しない読みや、まだ決められない点は何か。",
+      "kind": "editorial_application",
+      "evidence_units": [],
+      "status": "draft"
+    },
+    "supplement_boundary": "今回の要約候補は引用した意味欄の一部の関係を整理したもの。本文に残る他の語句・別説・保留は消えない。図像説明、他章、Golden Dawn対応、現代の定型解説を未採用とすることは、それらの解釈の成立を否定する判定ではない。実用上の問いは原典にない独自の補足。",
+    "rationale_ja": "根拠IDは英日対照の段落を指す。要約候補と正逆の読みはAIによる独自の整理で、訳文や唯一の定義ではない。対照全文にある条件・別説・未採用の語句へ戻って読み直せる。"
+  },
+  "verification": {
+    "dataset_alignment": "checked_against_pinned_local_dataset",
+    "translation_review": "ai_self_review_complete",
+    "independent_human_review": "pending",
+    "historical_original_collation": "not_performed",
+    "publication_status": "prototype",
+    "reviewed_on": "2026-10-24",
+    "reviewer": "Codex (AI; 独立した人間の校閲ではない)"
+  },
+  "unresolved": [
+    {
+      "id": "historical-collation",
+      "question_ja": "1922年再版のページ画像と各語句は独立に一致確認できるか。",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "id": "translation-review",
+      "question_ja": "暫定訳と曖昧語の選択を人間が確認し、採用できるか。",
+      "status": "open",
+      "resolution": null
+    }
+  ],
+  "rights": {
+    "attribution_file": "../ATTRIBUTION.md",
+    "upstream_license": "CC-BY-4.0",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "日本語名・意味欄ごとの段落対照付き忠実訳・曖昧語注記・要約候補・独自解釈・検証状態を追加。原文引用は固定データと一致。原典保存領域は変更していない。",
+    "endorsement": false
+  },
+  "rank": "Knight"
+}

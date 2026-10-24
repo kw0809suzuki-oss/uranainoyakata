@@ -1,4 +1,4 @@
-"""Read-only prototype audit; stdlib validator for the schema keywords used here."""
+"""Read-only 78-card dictionary audit; stdlib validator for the schema keywords used here."""
 import hashlib
 import json
 import re
@@ -7,7 +7,6 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 FIELDS = ('upright', 'reversed', 'additional_upright', 'additional_reversed')
-EXPECTED = {'00-fool', '01-magician', 'cups/two-of-cups'}
 BASE = '0dd250333976cf9d6dd6ce47fb7866ecd4b35749'
 CHECKS = 0
 
@@ -67,7 +66,8 @@ def main():
               for d in [json.loads(line)]}
     check(len(source) == 78, 'source 78')
     cards = [json.loads(f.read_text()) for f in sorted((HERE / 'cards').glob('*.json'))]
-    check(len(cards) == 3 and {c['card_id'] for c in cards} == EXPECTED, 'prototype scope')
+    check(len(cards) == 78 and {c['card_id'] for c in cards} == set(source), 'complete 78-card scope')
+    check(len({c['numeric_id'] for c in cards}) == 78, 'unique numeric IDs')
     for card in cards:
         cid = card['card_id']
         shape(card, schema, cid)
@@ -117,19 +117,36 @@ def main():
     cups = next(c for c in cards if c['card_id'] == 'cups/two-of-cups')
     check(cups['source']['fields']['reversed']['text_en'] == 'Passion.', 'cups reversed exception')
     check(cups['source']['fields']['reversed']['text_en'] == cups['source']['fields']['additional_reversed']['text_en'], 'cups duplicate source, not independent evidence')
-    # Prove the shape accepts the identities of all 78, without creating translations.
-    import copy
-    template = cards[0]
-    for _, original in source.values():
-        candidate = copy.deepcopy(template)
-        for field in ('card_id', 'numeric_id', 'name_en', 'arcana', 'suit', 'rank', 'number'):
-            candidate[field] = original['name'] if field == 'name_en' else original[field]
-        shape(candidate, schema, 'identity-extension')
-    print(json.dumps({'passed': True, 'checks': CHECKS, 'prototype_cards': 3,
-                      'source_records': 78, 'identity_schema_extension': 78,
-                      'schema_validation': 'stdlib subset; only keywords in this schema',
-                      'semantic_translation_check': 'AI self review only; human review pending',
-                      'historical_page_collation': 'not_performed'}, ensure_ascii=False, indent=2))
+    counts = {field: sum(c['source']['fields'][field]['text_en'] is not None for c in cards) for field in FIELDS}
+    check(counts == dict(zip(FIELDS, (78, 78, 56, 50))), 'all 262 nonnull source fields translated')
+    check(sum(c['source']['fields'][f]['text_en'] is None for c in cards for f in FIELDS) == 50, '50 null fields preserved')
+    no_extra_reverse = {c['card_id'] for c in cards if c['arcana'] == 'minor' and c['source']['fields']['additional_reversed']['text_en'] is None}
+    check(no_extra_reverse == {'wands/'+n+'-of-wands' for n in ('two','three','seven','eight','nine','ten')}, 'six minor null exceptions')
+    # Content sentinels catch several important qualifiers; these do not replace semantic review.
+    by_id = {c['card_id']: c for c in cards}
+    for cid, field, fragments in [
+        ('17-star','upright',('喪失','別の読み','希望')),
+        ('wands/two-of-wands','upright',('両立','できない','一方','他方')),
+        ('wands/ten-of-wands','upright',('調和させられない','脇に置く','ソードの9','続くなら')),
+        ('wands/queen-of-wands','reversed',('特定の位置','近く','場合')),
+        ('swords/knight-of-swords','upright',('近く','場合だけ')),
+        ('swords/ten-of-swords','upright',('暴力的な死','わけではない')),
+        ('pentacles/five-of-pentacles','upright',('調和させることはできない',)),
+        ('pentacles/three-of-pentacles','additional_reversed',('隣接するカードによる',)),
+    ]:
+        ja = by_id[cid]['translation']['fields'][field]['text_ja']
+        check(all(fragment in ja for fragment in fragments), cid+': retained qualifier')
+    check(by_id['17-star']['source']['fields']['upright']['text_en'].endswith(','), 'Star source comma')
+    check('though lawsuit' in by_id['20-judgement']['source']['fields']['upright']['text_en'], 'Judgement original spelling')
+    check(any('though' in n['term_en'] and n['status']=='unresolved' for n in by_id['20-judgement']['translation']['ambiguities']), 'Judgement unresolved reading')
+    summary = {'passed': True, 'checks': CHECKS, 'dictionary_cards': len(cards),
+               'source_records': len(source), 'translated_fields': counts,
+               'translated_nonnull_fields_total': sum(counts.values()), 'preserved_null_fields': 50,
+               'schema_validation': 'stdlib subset; only keywords in this schema',
+               'semantic_translation_check': 'AI self review only; human review pending',
+               'historical_page_collation': 'not_performed'}
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+
 
 
 if __name__ == '__main__':
