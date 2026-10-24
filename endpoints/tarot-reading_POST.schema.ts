@@ -2,7 +2,7 @@ import { z } from "zod";
 import superjson from "superjson";
 export const schema = z.object({
  question:z.string().max(1000),
- cards:z.array(z.object({position:z.number().int().min(1).max(10),role:z.string(),name:z.string(),meaning:z.string(),reversed:z.boolean()})).length(10)
+ cards:z.array(z.object({position:z.number().int().min(1).max(10),role:z.string(),name:z.string(),meaning:z.string(),reversed:z.boolean()})).length(10).refine(cards => new Set(cards.map(card => card.position)).size === 10, "位置は1〜10を一度ずつ指定してください")
 });
 export type InputType=z.infer<typeof schema>;
 export type OutputType={reading:string};

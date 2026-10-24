@@ -19,3 +19,8 @@
 .questionNote{font-size:12px;color:#a8a3b4;line-height:1.8}
 @media(max-width:800px){.spreadCanvas{min-width:490px;height:402px}.spreadBoard{margin-right:-12px}.spreadCard{--cw:64px;--ch:96px}.p1{left:calc(32% - 32px)}.p3{left:calc(32% - 32px)}.p5{left:calc(32% - 32px)}}
 .aiPanel{margin-top:30px;border-top:1px solid #625978;padding-top:24px}.aiPanel h3{font-family:var(--font-family-display);font-size:20px;font-weight:500;color:#e5c48f}.aiPanel>p{line-height:1.8;color:#bbb5c7;font-size:13px}.aiResult{white-space:pre-wrap;line-height:2.05;font-family:var(--font-family-display);font-size:14px;color:#e6dfd5;margin-top:20px;padding:20px;border:1px solid #75654e;background:#25283b;border-radius:12px}.aiError{color:#e4a4a9;font-size:13px}
+
+/* Let the existing scrollable spread stay inside its grid column on mobile. */
+.panel,.side{min-width:0}
+
+.dictionaryLink{font-size:13px;color:#e2bd81;white-space:nowrap;text-decoration:underline;text-underline-offset:4px}
